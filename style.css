@@ -1,7 +1,26 @@
+
 h1 {
-    font-color: #b29881;
+    color: #ba9785;
     font-family: georgia;
+}
+.secondh1 {
+    color: blue;
 }
 p {
     color: rgb(137, 137, 150)
+}
+.button1 {
+    background-color: white;
+    border: 2px solid #b29881;
+    font-family: georgia;
+    font-size: 13px;
+    color: #b29881; 
+}
+body {
+    font-color: #; 
+    background-color: #fffff;
+    max-width: 400px;
+}
+#thirdH1 {
+    color: green;
 }
