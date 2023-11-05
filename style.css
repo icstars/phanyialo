@@ -7,6 +7,11 @@ h1 {
 .secondh1 {
     color: blue;
 }
+h2 { 
+    color: ;
+    font-family: ;
+    font-size: 15px;
+}
 p {
     color: rgb(137, 137, 150)
 }
@@ -40,6 +45,7 @@ body {
     color: #; 
     background-color: #fffff;
     max-width: 400px;
+    font-size: 13px;
 }
 #thirdH1 {
     color: green;
