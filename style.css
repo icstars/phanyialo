@@ -1,6 +1,6 @@
 
 h1 {
-    color: #ba9785;
+    color: #7e685a;
     font-family: georgia;
 }
 .secondh1 {
@@ -10,14 +10,29 @@ p {
     color: rgb(137, 137, 150)
 }
 .button1 {
-    background-color: white;
-    border: 2px solid #b29881;
+    background-color: #b29881;
+    border: none;
+    border-style: round;
     font-family: georgia;
     font-size: 13px;
-    color: #b29881; 
+    color: white; 
+    padding: 8px;
+}
+#one {
+    background-color: #c2b9b0;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-family: georgia;
+}
+#one:hover {
+    background-color: #7e685a;
+    padding: 8px;
+    color: white;
+    font-family: georgia;
 }
 body {
-    font-color: #; 
+    color: #; 
     background-color: #fffff;
     max-width: 400px;
 }
