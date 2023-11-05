@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <center>
+     <style>
+        .columns {
+            border: none;
+            display: flex;
+        }
+       .columns > div {
+            border: none;
+            flex: 1;
+       }
+    </style>
     <title>About Me</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    </head>
     <h1>PhaNyia Lo</h1>
-    <table>
-        <thead>
-            <tr>
-                <th><img src="IMG_8678.jpeg"; alt="Image not found"; width=200px;></th>
-                <th><b>hobbies infomation here</b></th>
-            </tr>
-        </thead>
-    </table>
+    
+    <body>
+        <div class="columns">  
+            <div><img src="IMG_8678.jpeg"; alt="Image not found"; width=200px;></div>
+            <div>hobbies infomation here</div>
+        </div>
     <br>
     <br>
+    <button id="one"><a href="index.html">Home</a></button>
     <button id="one"><a href="aboutme.html">About Me</a></button>
     <button id="one"><a href="skills.html">Skills</a></button>
     <button id="one"><a href="hobbies.html">Hobbies</a></button>
     <br><br>
     contact: <a href="mailto:plo@icstars.org"; style="color:rgb(122, 101, 88);">plo@icstars.org</a>
     <br><br>
-    </center>
+    
+  
 
 </body>
+</center>
 </html>
