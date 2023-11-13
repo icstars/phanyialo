@@ -1,15 +1,17 @@
 
+
 h1 {
     color: #7e685a;
     font-family: century gothic;
     text-transform: uppercase;
+    font-size: 40px;
 }
 .secondh1 {
     color: blue;
 }
 h2 { 
-    color: ;
-    font-family: ;
+    color: none;
+    font-family: century gothic;
     font-size: 15px;
 }
 p {
@@ -27,24 +29,24 @@ a {
     border: none;
     border-style: round;
     font-family: georgia;
-    font-size: 13px;
+    font-size: 8px;
     color: white; 
-    padding: 8px;
+    padding: 6px;
 }
 #one {
     background-color: #c2b9b0;
     border: none;
-    padding: 8px;
+    padding: 5px;
     color: rgb(122, 101, 88);
 }
 #one:hover {
     background-color: rgb(165, 138, 120);
-    padding: 8px;
+    padding: 5px;
     color: #c2b9b0;
 }
 body {
-    color: #; 
-    background-color: #fffff;
+    color: none; 
+    background-color: #ffffff;
     max-width: 400px;
     font-size: 10px;
 }
@@ -64,7 +66,9 @@ body {
     display: none;
 }
 @media print {
-    display: block;
+    .noPrint {
+        display: block;
+    }
 }
 @media screen and (min-width-768px) {
     .mobile {
