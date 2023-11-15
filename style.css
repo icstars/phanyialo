@@ -1,13 +1,14 @@
 
 
 h1 {
-    color: #7e685a;
-    font-family: century gothic;
+    color: #000000;
+    font-family: the seasons;
     text-transform: uppercase;
+    text-shadow: 2px 2px lightgray;
     font-size: 40px;
 }
 .secondh1 {
-    color: blue;
+    color: #000000;
 }
 h2 { 
     color: none;
