@@ -21,38 +21,45 @@ p {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
-    font-family: georgia;
+    color: #1B2631;
+    font-family: the seasons;
+    text-transform: uppercase;
     font-size: 13px; 
 }
 .button1 {
-    background-color: #b29881;
+    background-color: #1B2631;
     border: none;
     border-style: round;
-    font-family: georgia;
+    font-family: the seasons;
     font-size: 8px;
-    color: white; 
     padding: 6px;
+    color: #e5e7e9;
 }
 #one {
-    background-color: #c2b9b0;
+    background-color: #e5e7e9;
     border: none;
     padding: 5px;
-    color: rgb(122, 101, 88);
+    color: #E5E7E9;
 }
 #one:hover {
-    background-color: rgb(165, 138, 120);
+    background-color: #1b2631;
     padding: 5px;
-    color: #c2b9b0;
+    color: #e5e7e9;
+    text-decoration: ;
+}
+#a:hover{
+    text-decoration: underline;
+}   
 }
 body {
     color: none; 
+    font-family: montserrat regular;
     background-color: #ffffff;
     max-width: 400px;
     font-size: 10px;
 }
 #thirdH1 {
-    color: green;
+    color: ;
 }
 .column {
     border: solid 1px #000000;
