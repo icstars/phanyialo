@@ -56,12 +56,12 @@ body {
     color: none; 
     font-family: arial regular;
     background-color: #ffffff;
-    max-width: ;
+    /* max-width:; */
     font-size: 10px;
 }
-#thirdH1 {
+/* #thirdH1 {
     color: ;
-}
+} */
 .column {
     border: solid 1px #000000;
     display: flex;
