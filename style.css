@@ -52,6 +52,10 @@ a {
     text-decoration: none;
 }   
 
+header {
+    max-width: 1000px;
+}
+
 body {
     color: none; 
     font-family: arial regular;
