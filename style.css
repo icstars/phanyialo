@@ -52,15 +52,14 @@ a {
     text-decoration: none;
 }   
 
-header {
+/* header {
     max-width: 1000px;
-}
+} */
 
 body {
     color: none; 
     font-family: arial regular;
     background-color: #ffffff;
-    max-width: 1000px;
     font-size: 10px;
 }
 /* #thirdH1 {
