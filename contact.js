@@ -55,5 +55,3 @@ grabSubmitBtn.addEventListener("click", (e) => {
 
     // const grabNameLabel = document.getElementById("firstNameLabel");
     // grabNameLabel.style.color = "red";
-
-})

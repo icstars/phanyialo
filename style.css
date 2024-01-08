@@ -11,9 +11,11 @@ h1 {
     color: #000000;
 }
 h2 { 
-    color: none;
-    font-family: georgia;
-    font-size: 15px;
+    color: #000000;
+    font-family: the seasons;
+    text-transform: uppercase;
+    text-shadow: 2px 2px lightgray;
+    font-size: 50px;
 }
 p {
     color: #808080;
