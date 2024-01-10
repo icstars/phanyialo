@@ -29,7 +29,7 @@ font-family: century gothic;
 }
 
 body {
-  background-image: url('bg1.png');
+  background-image: url('Photos/bg1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -46,14 +46,26 @@ section {
 
     </style>
     <title>About Me</title>
-    <link rel="icon" type="image/x-icon" href="/icon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Photos/icon.png">
+    <link rel="stylesheet" href="Styles/aboutme.css">
 
-    <a href="index.html"><img src="icon.png" width="45px"></a>
+    <a href="index.html"><img src="Photos/icon.png" width="45px"></a>
     <div class="topnav">
         <a href="index.html">Home</a>
         <a class="active" href="aboutme.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()"><a href="portfolio.html">Portfolio
+          <i class="fa fa-caret-down" style="font-size:24px"></i>
+        </a></button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Northwester Mutual - WERG</a>
+          <a href="#">Project #2</a>
+          <a href="#">Project #3</a>
+        </div>
+        </div> 
+  
+      <div class="topnav">
         <a href="contact.html">contact</a>
       </div>
 
@@ -67,14 +79,13 @@ section {
 <section>
     <h1>get to know me.</h1>
     <div>
-        <p>So, you're telling me I have to get experience before I get experience?<br><br>
-        <button id="one"><a href="mailto:plo@icstars.org">hire me</a></button></div>
-
-<p></section>
+        <p>hello<p>
+    </div>
+</section>
 
 
     
    
-    <script src = 'index.js'></script>
+    <script src = 'JS/index.js'></script>
 </body>
 </html>

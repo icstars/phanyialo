@@ -140,7 +140,7 @@ body {
 
   .topnav a:hover {
     background-color: none;
-    color: #808080;
+    color: #b0b0b0;
     text-decoration: none;
   }
 
@@ -171,7 +171,7 @@ body {
     float: left;
     overflow: hidden;
     background-color: none;
-    margin: 15px;
+    margin: 9px;
     color: #000000;
     text-align: center;
     padding: 0px;
@@ -203,14 +203,14 @@ body {
   .dropdown-content a {
     float: none;
     color: #000000;
-    padding: 1px;
+    padding: 4px;
     text-decoration: uppercase;
     display: block;
     text-align: left;
   }
   .dropdown-content a:hover {
     background-color: white;
-    color: #808080;
+    color: #b0b0b0;
   }
   .dropdown:hover .dropdown-content {
     display: block;
