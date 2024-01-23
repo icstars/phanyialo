@@ -38,7 +38,7 @@ grabSubmitBtn.addEventListener("click", (e) => {
     console.log(paragraphElement);
 
 
-    paragraphElement.textContent = `Thank you ${grabNameInput.value}. Your message has sent! I'll email you at ${grabEmailInput.value} as soon as I can.`;
+    // paragraphElement.textContent = `Thank you ${grabNameInput.value}. Your message has sent! I'll email you at ${grabEmailInput.value} as soon as I can.`;
 
     // when we click the like button, the paragraph will appear //
     // will say, "${firstName} ${lastName}, you're birthday is ${dateInput}. Thank you for liking."
@@ -52,6 +52,6 @@ grabSubmitBtn.addEventListener("click", (e) => {
     grabEmailInput.value = "";
     grabMessageInput.value= "";
 
-
+})
     // const grabNameLabel = document.getElementById("firstNameLabel");
     // grabNameLabel.style.color = "red";

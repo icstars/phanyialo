@@ -33,7 +33,7 @@ h3 {
     -webkit-text-stroke: #000000 1px;
 }
 p {
-    color: #808080;
+    color: #48494b;
     font-size: 13px;
     font-family: century gothic;
 }
@@ -62,9 +62,7 @@ a.one:hover {
     font-size: 13px; 
     border-style: solid 2px #000000;
 }
-a.one:active{
 
-}
 
 
 
