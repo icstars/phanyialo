@@ -23,18 +23,7 @@ h3 {
     display: inline;
     -webkit-text-stroke: #000000 1px;
 }
-p {
-    color: #48494b;
-    font-size: 13px;
-    font-family: century gothic;
-}
-a {
-    text-decoration: none;
-    color: #1B2631;
-    font-family: arial;
-    text-transform: uppercase;
-    font-size: 13px; 
-}
+
 a.one {
     text-decoration: none;
     background-color: #1B2631;
@@ -43,6 +32,7 @@ a.one {
     text-transform: uppercase;
     font-size: 13px; 
     border-style: solid 2px #000000;
+    border-radius: 1px;
 }
 a.one:hover {
     background-color: #ffffff;
