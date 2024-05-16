@@ -50,19 +50,19 @@ a.one {
   color: #ffffff;
   font-family: arial;
   text-transform: uppercase;
-  font-size: 13px; 
-  border-style: solid 2px #000000;
+  font-size: 12px; 
+  border: solid 2px #000000;
+  padding: 7px 25px;
 }
 a.one:hover {
   background-color: #ffffff;
-  text-decoration: none;
   color: #000000;
   font-family: arial;
   text-transform: uppercase;
-  font-size: 13px; 
-  border-style: solid 2px #000000;
+  font-size: 12px; 
+  border: solid 2px #000000;
+  padding: 7px 25px;
 }
-
 
 
 
